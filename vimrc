@@ -18,9 +18,14 @@ NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'tpope/vim-markdown'
+NeoBundle 'amiorin/vim-fenced-code-blocks'
+NeoBundle 'tpope/vim-endwise'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'ervandew/supertab'
+NeoBundle 'Raimondi/delimitMate'
+NeoBundle 'dhruvasagar/vim-table-mode'
+" Snipmate
 NeoBundle 'MarcWeber/vim-addon-mw-utils'
 NeoBundle 'tomtom/tlib_vim'
 NeoBundle 'garbas/vim-snipmate'
@@ -68,3 +73,8 @@ let g:dwm_map_keys = 1
 
 " EasyMotion
 let g:EasyMotion_leader_key = '<Leader><Leader>'
+
+noremap <up> <nop>
+noremap <down> <nop>
+noremap <left> <nop>
+noremap <right> <nop>
