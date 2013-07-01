@@ -1,0 +1,17 @@
+base16-vim
+ctrlp.vim
+dwm.vim
+neobundle.vim
+nerdtree
+powerline
+supertab
+syntastic
+tlib_vim
+vim-addon-mw-utils
+vim-easymotion
+vim-fugitive
+vim-markdown
+vim-rails
+vim-snipmate
+vim-snippets
+vim-surround
