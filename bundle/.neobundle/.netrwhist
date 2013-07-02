@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/sher/.npm/formidable'
-let g:netrw_dirhist_2='/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim'
-let g:netrw_dirhist_3='/Users/sher'
-let g:netrw_dirhist_4='/Users/sher/work/d2c/server'

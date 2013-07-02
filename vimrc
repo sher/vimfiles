@@ -73,8 +73,3 @@ let g:dwm_map_keys = 1
 
 " EasyMotion
 let g:EasyMotion_leader_key = '<Leader><Leader>'
-
-noremap <up> <nop>
-noremap <down> <nop>
-noremap <left> <nop>
-noremap <right> <nop>
