@@ -10,7 +10,7 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'chriskempson/base16-vim'
-NeoBundle 'Lokaltog/powerline'
+NeoBundle 'bling/vim-airline'
 NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'spolu/dwm.vim'
@@ -25,7 +25,7 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'ervandew/supertab'
 NeoBundle 'Raimondi/delimitMate'
-NeoBundle 'dhruvasagar/vim-table-mode'
+NeoBundle 'mileszs/ack.vim'
 " Snipmate
 NeoBundle 'MarcWeber/vim-addon-mw-utils'
 NeoBundle 'tomtom/tlib_vim'
@@ -41,6 +41,7 @@ set backspace=2
 set background=dark
 let base16colorspace=256
 set number
+set cursorline
 if filereadable(expand('~/.vim/bundle/base16-vim/colors/base16-default.vim'))
   colorscheme base16-default
 endif
@@ -61,3 +62,7 @@ let g:dwm_map_keys = 1
 let g:EasyMotion_leader_key = '<Leader><Leader>'
 
 set laststatus=2
+
+let g:airline_theme='solarized'
+let g:airline_right_sep=''
+let g:airline_left_sep=''
